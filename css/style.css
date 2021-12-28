@@ -1,0 +1,686 @@
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+/************************************************/
+.navbar-expand-lg .navbar-collapse {
+    padding: 0px 30px;
+}
+.my-nav{
+    margin: auto;
+}
+.navbar-expand-lg .navbar-collapse li{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.navbar-expand-lg .logo{
+    line-height: 38px;
+}
+.navbar-expand-lg a:hover{
+    text-decoration: none;
+}
+/**************************************************************************/
+.header{
+    margin: 20px auto;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+}
+.header ul{
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+}
+.header ul li{
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+.header ul li p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.header ul li a:hover i{
+    color: #333;
+}
+.header ul li a:hover p{
+    color: blue;
+}
+/******************************/
+.holiday{
+    clear: both;
+    text-align: center;
+    background-color: #e34140;
+    color: #f4edef;
+}
+.holiday p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.holiday a{
+    color: #f4edef;
+    text-decoration: none;
+}
+.holiday a:hover{
+    text-decoration:underline;
+}
+/**************************************/
+.charged{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.charged .new{
+    color: #e34140;
+    font-weight: bold;
+}
+.charged h5{
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.charged h2{
+    font-weight: bold;
+}
+.charged .since{
+    font-weight: bold;
+    font-size: 18px;
+    color: #434343;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.charged button{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.charged a{
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.charged a:hover{
+    text-decoration: underline;
+}
+.charged img{
+    width: 50%;
+    height: 350px;
+}
+/***************************************************/
+.favorit-mac{
+    background-color: #fafafa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.note-book{
+    height: 400px;
+}
+.nav-tabs {
+    border-bottom: none; 
+    margin: 40px auto;
+    width: fit-content;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-item.show .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link:focus,
+.nav-tabs .nav-item.show .nav-link:active, 
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover,
+.nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active:active {
+    color: #333;
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    border-bottom: 1px solid #333;
+    outline-color: transparent;
+}
+.nav-link,
+.nav-link:hover{
+    color:#333;
+    border-color: transparent;
+    outline-color: transparent;
+}
+.favorit-mac .mac{
+    width: 70%;
+    height: 130px;
+}
+.favorit-mac .nodes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.favorit-mac .nodes span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    background-color: #abaeb3;
+    border-radius: 50%;
+}
+.favorit-mac h3{
+    text-align: center;
+    font-size: 25px;
+}
+.favorit-mac span.since{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #c6c6c6;
+}
+.favorit-mac .btn-primary{
+    font-size: 13px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.favorit-mac .more{
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 20px;
+}
+.favorit-mac .more:hover{
+    text-decoration: underline;
+}
+/*********************************************/
+.apple{
+    margin-top: 20px;
+}
+.apple-square img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.apple p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.core{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.memory .fa-lg,
+.battery .fa-lg{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.touch p{
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 20px;
+}
+.link-models{
+    margin-bottom: 30px;
+}
+.link-models a{
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.link-models a:hover{
+    text-decoration: underline;
+}
+/***************************************/
+.gifts{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eaf2fc;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gifts .fa-apple{
+    color: #ec555d;
+    font-size: 70px;
+
+}
+.gifts h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.gifts a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.gifts a:hover{
+    text-decoration: underline;
+}
+.gifts .iphones{
+    margin-top: 40px;
+}
+.gifts .iphones img{
+    width: 80%;
+    height: 240px;
+}
+/*******************************/
+.apple-card{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    text-align: center;
+}
+.apple-card h2{
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+    margin:0px auto 20px;
+}
+.apple-card p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.apple-card img{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+/*********************************/
+.accessor{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center
+}
+.accessor .accessories,
+.accessor .apple-trade{
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    max-height: 600px;
+    overflow: hidden;
+}
+.accessor .accessories h4,
+.accessor .apple-trade h4{
+    font-weight: bold;
+}
+.accessor .accessories h2,
+.accessor .apple-trade h2{
+    font-weight: bold;
+    width: 70%;
+    margin: 20px auto;
+}
+.accessor .accessories{
+    margin-left: -13px;
+}
+.accessor .apple-trade{
+    margin-right: -13px;
+}
+.accessor .accessories button{
+    margin-bottom: 40px;
+    width: 130px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.accessor .apple-trade p{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.accessor .apple-trade a{
+    font-size: 18px;
+    font-weight: 500;
+}
+.accessor img{
+    width: 100%;
+    height: 400px;
+}
+.accessor .apple-trade img{
+    margin-top: 40px;
+}
+/*********************************************/
+.buy{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.buy i.fa-lg{
+    font-size: 60px;
+    color: #7f7f7f;
+}
+.buy h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.buy a{
+    font-size: 20px;
+    font-weight: 500;
+}
+/****************************************/
+.what-make{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.what-make h1{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 700;
+}
+/*********************************************/
+.why-mac{
+    padding-bottom: 0px;
+}
+.why-mac img{
+    width: 80%;
+    height: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.why-mac .continuity{
+    margin-top: 40px;
+}
+.why-mac a{
+    font-size: 18px;
+    font-weight: 500;
+}
+/****************************************/
+.macos{
+    background-image: url("../images/montry.jpeg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 20px;
+}
+.macos h4{
+    margin-top: 200px;
+    font-size: 25px;
+}
+.macos h1{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.macos a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.macos a{
+    color: #f2f2f2;
+}
+/***************************************/
+.built-apps{
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.built-apps .head{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.built-apps .head h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.built-apps .head p{
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.built-apps ul li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.built-apps p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.built-apps a{
+    font-size: 18px;
+    font-weight: 400;
+}
+.built-apps p img{
+    width: 80%;
+    margin: 60px auto;
+}
+/**********************************/
+.pro-app hr{
+    width: 70%;
+    margin: 20px auto 60px;
+}
+.pro-app .store{
+    width: 50px;
+    height: 50px;
+}
+.pro-app .mac-store span{
+    font-weight: 500;
+    margin-left: 10px;
+}
+.pro-app .mac-store{
+    width: 65%;
+    margin: 60px auto;
+}
+/******************************************************/
+.about-mac{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.about-mac h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+/*********************************************************/
+.virsual-session .sign-up{
+    margin-top: 150px;
+}
+.virsual-session .sign-up h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.virsual-session .sign-up h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+.virsual-session{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 500px;
+}
+.virsual-session .sign-up p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.virsual-session .sign-up a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.virsual-session .virsual{
+    background-image: url("../images/virsual.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*********************************************/
+.one-apple{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.one-apple .myapp{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.one-apple .myapple{
+    margin-top: 100px;
+}
+.one-apple .myapple img{
+    width: 50%;
+    margin: 0px auto 40px;
+}
+.one-apple .myapple p{
+    font-size: 22px;
+    font-weight: bold;
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+}
+.one-apple .myapple a{
+    font-size: 22px;
+    padding: 0px 10px;
+    font-weight: 400;
+}
+/********************************************/
+.tv-plus .tv{
+    background-image: url(../images/tvplus.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position-y: -60px;
+    background-color: #0a0a0a;
+}
+.tv-plus .tv h4{
+    width: 70%;
+    margin: 200px auto 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.tv-plus .tv a{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/********************************************/
+.pay h2,
+.arcade h2,
+.gift-card h2{
+    font-size: 50px;
+}
+.pay p,
+.arcade p,
+.gift-card p{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+.arcade a,
+.gift-card a,
+.news a{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.news{
+    background-image: url("../images/newsplus.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.news p{
+    margin-top: 130px !important;
+    font-size: 18px !important;
+    color: #FFF;
+    font-weight: 500;
+}
+.gift-card{
+    background-color: #FFF;
+}
+.gift-card h2{
+    margin-top: 80px;
+}
+/*********************************************/
+.apple-work{
+    background-image: url("../images/applework.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #FFF;
+}
+.apple-work h2{
+    margin-top: 170px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.apple-work p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.apple-work a{
+    color: #FFF;
+}
+.apple-education{
+    background-image: url("../images/apple-education.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #FFF;
+}
+/**************************************************************/
+.footer{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .words p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer li{
+    font-size: 14px;
+}
+.footer .footer-links{
+    text-align: center;
+}
+.footer .footer-links a{
+    color: #000;
+    display: block;
+}
+.copy-right{
+    margin-top: 30px;
+}

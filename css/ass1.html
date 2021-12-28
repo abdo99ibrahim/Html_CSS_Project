@@ -1,0 +1,48 @@
+<html>
+	<head>
+
+		<style>
+			.message{
+				text-align: center;
+				font-size: 18pt;
+			}
+			div{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img id='first_img' src="Resources for Lab/gray.png" width='120' height = '120'>
+			<img id='sec_img' src="Resources for Lab/gray.png" width='120' height = '120'>
+			<img id='third_img' src="Resources for Lab/gray.png" width='120' height = '120'>
+		</div>
+		<p class="message" id="content">hello</p>
+		<script>
+            var ready=document.getElementById("first_img");
+            var steady=document.getElementById("sec_img");
+            var go=document.getElementById("third_img");
+            var content=document.getElementById("content");
+            function readyGo(num){
+                if(num==1){
+                    ready.setAttribute("src","Resources for Lab/red.png");
+                    steady.setAttribute("src","Resources for Lab/gray.png");
+                    go.setAttribute("src","Resources for Lab/gray.png");
+                    content.textContent="Ready";
+
+                }else if(num==2){
+                    steady.setAttribute("src","Resources for Lab/orange.png");
+                    ready.setAttribute("src","Resources for Lab/gray.png");
+                    go.setAttribute("src","Resources for Lab/gray.png");
+                    content.textContent="Steady";
+                }else if(num==3){
+                    go.setAttribute("src","Resources for Lab/green.png");
+                    steady.setAttribute("src","Resources for Lab/gray.png");
+                    ready.setAttribute("src","Resources for Lab/gray.png");
+                    content.textContent="Go";
+                }
+            }
+            setInterval(readyGo,3000);
+        </script>
+	</body>
+</html>
